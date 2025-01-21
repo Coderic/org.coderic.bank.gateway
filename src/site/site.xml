@@ -27,12 +27,11 @@ name="${project.name}">
                 <href>/index.html</href>
             </topBarIcon>
             <profile>pre-release</profile>
-            <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
-			<gitHub>
-				<projectId>CodericBusiness/org.coderic.bank.gateway</projectId>
-				<ribbonOrientation>right</ribbonOrientation>
-				<ribbonColor>orange</ribbonColor>
-			</gitHub>
+		<gitHub>
+			<projectId>Coderic/org.coderic.bank.gateway</projectId>
+			<ribbonOrientation>right</ribbonOrientation>
+			<ribbonColor>orange</ribbonColor>
+		</gitHub>
         </fluidoSkin>
     </custom>
 	<edit>${project.scm.url}/edit/master/</edit>
