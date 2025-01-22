@@ -18,7 +18,7 @@ public class CountryConfiguration {
     @Bean
     public CountryClient countryClient(Jaxb2Marshaller marshaller) {
         CountryClient client = new CountryClient();
-        //client.setDefaultUri("https://backend.coderic.cloud/bank/endpoint/ws");
+        //client.setDefaultUri("https://api.coderic.co/bank/endpoint/ws");
         client.setMarshaller(marshaller);
         client.setUnmarshaller(marshaller);
         return client;
