@@ -11,6 +11,11 @@ name="${project.name}">
         <src>https://coderic.org/favicon.svg</src>
         <href>https://coderic.org</href>
     </bannerRight>
+    <poweredBy>
+        <logo name="Coderic" href="https://coderic.org"
+              img="https://coderic.org/favicon.svg" position="center"
+              width="80%" title="Coderic"/>
+    </poweredBy>
     <skin>
         <groupId>org.apache.maven.skins</groupId>
         <artifactId>maven-fluido-skin</artifactId>
