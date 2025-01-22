@@ -1,4 +1,4 @@
-name: Testing
+name: Deploy Maven site to GitHub Pages
 
 on: workflow_dispatch
 concurrency:
