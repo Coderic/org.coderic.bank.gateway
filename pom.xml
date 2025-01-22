@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.0</version>
+		<version>3.4.1</version>
 		<relativePath/>
 	</parent>
 	<groupId>org.coderic.bank</groupId>
@@ -14,7 +14,7 @@
 	<packaging>war</packaging>
 	<name>Gateway for Bank Transactions</name>
 	<description>Bank Transactions Gateway</description>
-	<url>https://github.com/CodericBusiness/org.coderic.bank.gateway</url>
+	<url>https://github.com/Coderic/org.coderic.bank.gateway</url>
 	<organization>
 		<name>Coderic</name>
 		<url>https://coderic.org/</url>
@@ -28,18 +28,17 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:git:https://github.com/CodericBusiness/org.coderic.bank.gateway.git</connection>
-		<developerConnection>${project.scm.connection}</developerConnection>
-		<tag>HEAD</tag>
-		<url>https://github.com/CodericBusiness/org.coderic.bank.gateway.git</url>
+        <connection>scm:git:https://github.com/Coderic/org.coderic.bank.gateway.git</connection>
+        <developerConnection>scm:git:git@github.com:Coderic/org.coderic.bank.gateway.git</developerConnection>
+        <url>http://github.com/Coderic/org.coderic.bank.gateway/tree/master</url>
 	</scm>
 	<ciManagement>
 		<system>GitHub Actions</system>
-		<url>https://github.com/CodericBusiness/org.coderic.bank.gateway/actions</url>
+		<url>https://github.com/Coderic/org.coderic.bank.gateway/actions</url>
 	</ciManagement>
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/CodericBusiness/org.coderic.bank.gateway/issues</url>
+		<url>https://github.com/Coderic/org.coderic.bank.gateway/issues</url>
 	</issueManagement>
 	<developers>
 		<developer>
